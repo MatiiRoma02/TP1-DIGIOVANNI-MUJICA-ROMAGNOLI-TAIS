@@ -36,7 +36,7 @@ html {
 .form-group input.valid { border-color: black; }
 .form-group input.invalid { border-color: red; }
 .error-msg {
-  color: red);
+  color: red;
   font-size: 0.8rem;
   display: none;
   margin-top: 0.2rem;
