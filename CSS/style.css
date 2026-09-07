@@ -6,7 +6,10 @@ html {
 * {
   box-sizing: border-box;
 }
-
+.form-group {
+  margin-bottom: 1rem;
+  border-radius: 15px;
+}
 body {
   margin: 0;
   background-color: rgb(50, 50, 50);
