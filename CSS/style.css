@@ -33,10 +33,10 @@ html {
   border-radius: 6px;
   font-size: 1rem;
 }
-.form-group input.valid { border-color: var(--success); }
-.form-group input.invalid { border-color: var(--error); }
+.form-group input.valid { border-color: black; }
+.form-group input.invalid { border-color: red; }
 .error-msg {
-  color: var(--error);
+  color: red);
   font-size: 0.8rem;
   display: none;
   margin-top: 0.2rem;
