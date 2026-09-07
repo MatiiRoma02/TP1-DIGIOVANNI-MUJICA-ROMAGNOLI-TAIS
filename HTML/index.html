@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INICIO</title>
+    <script src="../JS/script.js" defer></script>
+    <link rel="stylesheet" href="../CSS/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container header-container">
+        <p class="logo">LOGO</p>
+        <nav>
+          <a href="#hero">INICIO</a>
+          <a href="#sobre-nosotros">NOSOTROS</a>
+          <a href="#prendas-mas-vendidas">LO MÁS VENDIDO</a>
+          <a href="pagina1.html">CATÁLOGO</a>
+          <button id="toggle-mode" class="btn-theme">Modo Claro</button>
+        </nav>
+      </div>
+    </header>
+
+    <section id="hero">
+      <h1>
+        TITULO GRANDE <br />
+        TITULO DE ABAJO
+      </h1>
+      <button onclick="window.location.href='#prendas-mas-vendidas'">MIRA ESTO...</button>
+    </section>
+
+    <section id="sobre-nosotros">
+      <div class="container seccion-centrada">
+        <div class="img-container"></div>
+        <h2>SOBRE NOSOTROS</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+          quisquam omnis doloribus tempore modi doloremque dolor sapiente?
+        </p>
+        <button onclick="window.location.href='#prendas-mas-vendidas'">MIRA ESTO</button>
+      </div>
+    </section>
+
+    <section id="prendas-mas-vendidas">
+      <div class="container seccion-centrada">
+        <h2>Algunas de nuestras prendas mas vendidas!</h2>
+        <div class="grid-cartas">
+          
+          <div class="carta">
+            <img src="../IMG/CASUAL.jpg" alt="Prenda Casual">
+            <div class="carta-info">
+              <h3>Casual Urbano</h3>
+              <p>Buzo gris con capucha y jeans anchos desgastados con roturas. Estilo relajado.</p>
+              <button onclick="window.location.href='pagina1.html'">MIRA ESTO</button>
+            </div>
+          </div>
+          
+          <div class="carta">
+            <img src="../IMG/CONJUNTO-AZUL-OSC.jpg" alt="Conjunto Azul Oscuro">
+            <div class="carta-info">
+              <h3>Conjunto Brooklyn</h3>
+              <p>Dos piezas en azul marino. Buzo con capucha y jogger a juego. Cómodo y deportivo.</p>
+              <button onclick="window.location.href='pagina1.html'">MIRA ESTO</button>
+            </div>
+          </div>
+          
+          <div class="carta">
+            <img src="../IMG/CONJUNTO-CLARO.jpg" alt="Conjunto Claro">
+            <div class="carta-info">
+              <h3>Conjunto Crema</h3>
+              <p>Sobrecamisa de botones y pantalón suelto con cordón. Fresco y elegante para toda ocasión.</p>
+              <button onclick="window.location.href='pagina1.html'">MIRA ESTO</button>
+            </div>
+          </div>
+          
+          <div class="carta">
+            <img src="../IMG/CONJUNTO-GRIS.jpg" alt="Conjunto Gris">
+            <div class="carta-info">
+              <h3>Conjunto Oversize</h3>
+              <p>Diseño ancho en gris jaspeado. Buzo half-zip con cuello alto y jogger holgado.</p>
+              <button onclick="window.location.href='pagina1.html'">MIRA ESTO</button>
+            </div>
+          </div>
+          
+          <div class="carta">
+            <img src="../IMG/CONJUNTO-NEGRO.jpg" alt="Conjunto Negro">
+            <div class="carta-info">
+              <h3>Streetwear Cargo</h3>
+              <p>Look oscuro total. Buzo gráfico con capucha y pantalones cargo con bolsillos amplios.</p>
+              <button onclick="window.location.href='pagina1.html'">MIRA ESTO</button>
+            </div>
+          </div>
+          
+          <div class="carta">
+            <img src="../IMG/CONJUNTO-VERDE-OLI.jpg" alt="Conjunto Verde Oliva">
+            <div class="carta-info">
+              <h3>Militar Urbano</h3>
+              <p>Chaqueta ligera tipo camisa sobre pantalón cargo en verde oliva. Estilo estructurado.</p>
+              <button onclick="window.location.href='pagina1.html'">MIRA ESTO</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="caracteristicas">
+      <div class="container seccion-centrada">
+        <ul>
+          <li>Comodidad</li>
+          <li>Resistencia</li>
+          <li>Suavidad</li>
+          <li>Liviandad</li>
+          <li>Durabilidad</li>
+          <li>Económicas</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="catalogo" class="seccion-centrada">
+      <h2>CATÁLOGO</h2>
+      <button onclick="window.location.href='pagina1.html'">IR AL CATÁLOGO</button>
+    </section>
+
+    <footer>
+      <div class="container">
+        <nav class="footer-nav">
+          <a href="index.html">Inicio</a> | 
+          <a href="pagina1.html">Catálogo</a> | 
+          <a href="pagina2.html">Nosotros</a> | 
+          <a href="pagina3.html">Contacto</a>
+        </nav>
+        <p>&copy; Los pibes</p>
+      </div>
+    </footer>
+  </body>
+</html>
