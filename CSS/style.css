@@ -15,6 +15,7 @@ html {
 .form-group {
   margin-bottom: 1rem;
   border-radius: 15px;
+  color: azure;
 }
 .checkout-layout {
   display: grid;
