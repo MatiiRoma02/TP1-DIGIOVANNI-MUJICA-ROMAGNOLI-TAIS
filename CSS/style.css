@@ -16,12 +16,6 @@ html {
   margin-bottom: 1rem;
   border-radius: 15px;
 }
-.formulario {  
-  display: flex;
-  justify-content: space-between; 
-  align-items: flex-start;        
-  margin-left: auto;             
-}
 .checkout-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
