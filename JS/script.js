@@ -10,3 +10,10 @@ toggleBtn.addEventListener('click', () => {
     toggleBtn.textContent = 'Modo Claro';
   }
 });
+
+const btnHamburguesa = document.getElementById('menu-hamburguesa');
+const navMenu = document.getElementById('nav-menu');
+
+btnHamburguesa.addEventListener('click', () => {
+  navMenu.classList.toggle('mostrar');
+});
