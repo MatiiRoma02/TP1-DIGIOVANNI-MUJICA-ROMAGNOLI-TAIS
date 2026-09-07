@@ -23,6 +23,59 @@
         </nav>
       </div>
     </header>
+     <div>
+                <h3>Datos de Envío y Pago</h3>
+                <form id="checkout-form" style="margin-top: 1rem;" novalidate>
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo *</label>
+                        <input type="text" id="nombre" required>
+                        <span class="error-msg" id="error-nombre">Por favor, ingresa tu nombre</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico *</label>
+                        <input type="email" id="email" placeholder="correo@gmail.com" required>
+                        <span class="error-msg" id="error-email">Por favor, ingresa un correo válido</span>
+                    </div>
+
+                     <div class="form-group">
+                        <label for="telefono">Teléfono *</label>
+                        <input type="tel" id="telefono" required>
+                        <span class="error-msg" id="error-telefono">Por favor, ingresa un teléfono</span>
+                    </div>
+
+                     <div class="form-group">
+                        <label for="direccion">Dirección de Envio *</label>
+                        <input type="text" id="direccion" required>
+                        <span class="error-msg" id="error-direccion">Por favor, ingresa una dirección</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="fecha">Fecha de Entrega *</label>
+                        <input type="date" id="fecha" required>
+                        <span class="error-msg" id="fecha">Selecciona una fecha</span>
+                    </div>
+                <div class="form-group">
+                    <label for="metodo">Método de Pago *</label>
+                    <select id="metodo" required>
+                    <option value="">-Selecciona una-</option>
+                    <option value="credito">Tarjeta de Crédito</option>
+                    <option value="debito">Tarjeta de débito</option>
+                    <option value="tranfer">Transferencia</option>
+                    <option value="efectivo">Efectivo</option>
+                    </select>
+                    <span class="error-msg" id="error-metodo">Selecciona un método de pago</span>
+                </div>
+                     <div class="form-group">
+                        <label for="tarjeta">Número de Tarjeta *</label>
+                        <input type="text" id="tarjeta" placeholder="1234 5455 9543 1203" required>
+                        <span class="error-msg" id="error-tarjeta">Debe ingresar exactamente 16 dígitos.</span>
+                    </div>
+<div class="form-group" style="display: flex; gap: 0.5rem; align-items: center;">
+    <input type="checkbox" id="terminos" style="width: auto;" required>
+    <label for="terminos" style="margin: 0;">Acepto términos y condiciones. *</label>
+    <span class="error-msg" id="error-terminos">Debes aceptar los términos.</span>
+</div>
+
+    <button type="submit" class="btn">Finalizar Pedido</button>
 
 
 
@@ -44,7 +97,6 @@
 
 
 
-    
        <footer>
       <div class="container">
         <nav class="footer-nav">
