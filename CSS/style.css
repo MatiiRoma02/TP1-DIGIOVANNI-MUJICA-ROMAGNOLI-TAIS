@@ -126,7 +126,7 @@ button:hover {
 
 .container {
   max-width: 1400px;
-  margin: 100%;
+  margin: auto;
   padding: 0 20px;
 }
 
