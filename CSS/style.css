@@ -26,6 +26,7 @@ html {
   display: block;
   margin-bottom: 0.4rem;
   font-weight: 600;
+  color: green;
 }
 .form-group input, .form-group select {
   width: 100%;
