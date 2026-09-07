@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +23,8 @@
         </nav>
       </div>
     </header>
-     <div>
+
+    <div>
         <h2>Resumen de Compras realizadas:</h2>
         <br>
         <div class="checkout-layout">
@@ -47,49 +48,51 @@
                         <span class="error-msg" id="error-email">Por favor, ingresa un correo válido</span>
                     </div>
 
-                     <div class="form-group">
+                    <div class="form-group">
                         <label for="telefono">Teléfono *</label>
                         <input type="tel" id="telefono" required>
                         <span class="error-msg" id="error-telefono">Por favor, ingresa un teléfono</span>
                     </div>
 
-                     <div class="form-group">
-                        <label for="direccion">Dirección de Envio *</label>
+                    <div class="form-group">
+                        <label for="direccion">Dirección de Envío *</label>
                         <input type="text" id="direccion" required>
                         <span class="error-msg" id="error-direccion">Por favor, ingresa una dirección</span>
                     </div>
                     <div class="form-group">
                         <label for="fecha">Fecha de Entrega *</label>
                         <input type="date" id="fecha" required>
-                        <span class="error-msg" id="fecha">Selecciona una fecha</span>
+                        <span class="error-msg" id="error-fecha">Selecciona una fecha</span>
                     </div>
-                <div class="form-group">
-                    <label for="metodo">Método de Pago *</label>
-                    <select id="metodo" required>
-                    <option value="">-Selecciona una-</option>
-                    <option value="credito">Tarjeta de Crédito</option>
-                    <option value="debito">Tarjeta de débito</option>
-                    <option value="tranfer">Transferencia</option>
-                    <option value="efectivo">Efectivo</option>
-                    </select>
-                    <span class="error-msg" id="error-metodo">Selecciona un método de pago</span>
-                </div>
-                     <div class="form-group">
+                    <div class="form-group">
+                        <label for="metodo">Método de Pago *</label>
+                        <select id="metodo" required>
+                            <option value="">-Selecciona una-</option>
+                            <option value="credito">Tarjeta de Crédito</option>
+                            <option value="debito">Tarjeta de débito</option>
+                            <option value="tranfer">Transferencia</option>
+                            <option value="efectivo">Efectivo</option>
+                        </select>
+                        <span class="error-msg" id="error-metodo">Selecciona un método de pago</span>
+                    </div>
+                    <div class="form-group">
                         <label for="tarjeta">Número de Tarjeta *</label>
                         <input type="text" id="tarjeta" placeholder="1234 5455 9543 1203" required>
                         <span class="error-msg" id="error-tarjeta">Debe ingresar exactamente 16 dígitos.</span>
                     </div>
-<div class="form-group" style="display: flex; gap: 0.5rem; align-items: center;">
-    <input type="checkbox" id="terminos" style="width: auto;" required>
-    <label for="terminos" style="margin: 0;">Acepto términos y condiciones. *</label>
-    <span class="error-msg" id="error-terminos">Debes aceptar los términos.</span>
-</div>
+                    <div class="form-group" style="display: flex; gap: 0.5rem; align-items: center;">
+                        <input type="checkbox" id="terminos" style="width: auto;" required>
+                        <label for="terminos" style="margin: 0;">Acepto términos y condiciones. *</label>
+                        <span class="error-msg" id="error-terminos">Debes aceptar los términos.</span>
+                    </div>
 
-    <button type="submit" class="btn">Finalizar Pedido</button>
+                    <button type="submit" class="btn">Finalizar Pedido</button>
+                </form>
+            </div>
+        </div>
+    </div>
 
-
-       <footer>
-      <div class="container">
+    <footer>
         <nav class="footer-nav">
           <a href="index.html">Inicio</a> |
           <a href="pagina1.html">Catálogo</a> |
@@ -97,7 +100,6 @@
           <a href="pagina3.html">Contacto</a>
         </nav>
         <p>&copy; Los pibes</p>
-      </div>
     </footer>
 </body>
 </html>
