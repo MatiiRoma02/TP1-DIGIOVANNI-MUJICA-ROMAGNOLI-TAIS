@@ -128,6 +128,7 @@ button:hover {
   max-width: 1400px;
   margin: auto;
   padding: 0 20px;
+  width: 100%;
 }
 
 .seccion-centrada {
