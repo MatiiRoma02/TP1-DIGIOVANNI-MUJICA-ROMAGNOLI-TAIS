@@ -346,3 +346,7 @@ body.light-mode #nav-menu { background-color: #e6e2d6; border-top: 1px solid #d1
     display: flex;
   }
 }
+
+.Catalogo {
+  display: flex;
+}
