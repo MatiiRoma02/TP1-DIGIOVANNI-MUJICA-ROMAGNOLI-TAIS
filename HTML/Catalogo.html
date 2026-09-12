@@ -1,83 +1,172 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Catalogo</title>
-      <script src="../JS/script.js" defer></script>
-      <link rel="stylesheet" href="../CSS/style.css" />
-      <link rel="icon" type="image/x-icon" href="../ICONO/favicon.ico">
-</head>
+    <script src="../JS/script.js" defer></script>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="icon" type="image/x-icon" href="../ICONO/favicon.ico" />
+  </head>
 
-<body>
+  <body>
     <header>
       <div class="container header-container">
         <img src="../IMG/logo.png" alt="Logo" class="logo" />
-        
         <button id="menu-hamburguesa" class="menu-btn">☰</button>
-
         <nav id="nav-menu">
           <a href="index.html">INICIO</a>
-          <a href="Catalogo.html">CATALOGO</a>
-          <a href="carrito.html">MI CARRITO (<span id="cart-count">0</span>) </a>
-          <a href="pagina1.html">CATÁLOGO</a>
+          <a href="catalogo.html">CATÁLOGO</a>
+          <a href="carrito.html">MI CARRITO (<span id="cart-count">0</span>)</a>
+          <a href="nosotros.html">NOSOTROS</a>
           <button id="toggle-mode" class="btn-theme">Modo Claro</button>
         </nav>
       </div>
     </header>
 
-    <section class="Catalogo">
-        <div>
-         <img src="../IMG/Buzo.png" alt="buzito" width="310px">
-         <p>Precio: $30.000</p>
-         <button>Agregar al carrito</button>
+    <section class="container seccion-centrada">
+      <h2>NUESTRO CATÁLOGO</h2>
+      <div class="grid-cartas">
+        <div class="carta">
+          <img src="../IMG/Buzo.png" alt="buzito" />
+          <div class="carta-info">
+            <h3>Buzo Clásico</h3>
+            <p>Precio: $30.000</p>
+            <button
+              class="btn-agregar"
+              data-nombre="Buzo Clásico"
+              data-precio="30000"
+              data-img="../IMG/Buzo.png"
+            >
+              Agregar al carrito
+            </button>
+          </div>
         </div>
 
-        <div>
-         <img src="../IMG/remera.png" alt="remerita" width="350px" height="415px">
-         <p>Precio: $10.000</p>
-         <button>Agregar al carrito</button>
+        <div class="carta">
+          <img src="../IMG/remera.png" alt="remerita" />
+          <div class="carta-info">
+            <h3>Remera Básica</h3>
+            <p>Precio: $10.000</p>
+            <button
+              class="btn-agregar"
+              data-nombre="Remera Básica"
+              data-precio="10000"
+              data-img="../IMG/remera.png"
+            >
+              Agregar al carrito
+            </button>
+          </div>
         </div>
 
-        <div>
-         <img src="../IMG/CONJUNTO-AZUL-OSC.jpg" alt="conjuito azul" width="310px">
-         <p>Precio: $120.000</p>
-         <button>Agregar al carrito</button>
+        <div class="carta">
+          <img src="../IMG/CONJUNTO-AZUL-OSC.jpg" alt="conjuito azul" />
+          <div class="carta-info">
+            <h3>Conjunto Azul Oscuro</h3>
+            <p>Precio: $120.000</p>
+            <button
+              class="btn-agregar"
+              data-nombre="Conjunto Azul Oscuro"
+              data-precio="120000"
+              data-img="../IMG/CONJUNTO-AZUL-OSC.jpg"
+            >
+              Agregar al carrito
+            </button>
+          </div>
         </div>
 
-        <div>
-         <img src="../IMG/CONJUNTO-CLARO.jpg" alt="conjuito claro" width="310px">
-         <p>Precio: $140.000</p>
-         <button>Agregar al carrito</button>
+        <div class="carta">
+          <img src="../IMG/CONJUNTO-CLARO.jpg" alt="conjuito claro" />
+          <div class="carta-info">
+            <h3>Conjunto Claro</h3>
+            <p>Precio: $140.000</p>
+            <button
+              class="btn-agregar"
+              data-nombre="Conjunto Claro"
+              data-precio="140000"
+              data-img="../IMG/CONJUNTO-CLARO.jpg"
+            >
+              Agregar al carrito
+            </button>
+          </div>
         </div>
 
-        <div>
-         <img src="../IMG/CONJUNTO-GRIS.jpg" alt="conjuito gris" width="310px">
-         <p>Precio: $120.000</p>
-         <button>Agregar al carrito</button>
+        <div class="carta">
+          <img src="../IMG/CONJUNTO-GRIS.jpg" alt="conjuito gris" />
+          <div class="carta-info">
+            <h3>Conjunto Gris</h3>
+            <p>Precio: $120.000</p>
+            <button
+              class="btn-agregar"
+              data-nombre="Conjunto Gris"
+              data-precio="120000"
+              data-img="../IMG/CONJUNTO-GRIS.jpg"
+            >
+              Agregar al carrito
+            </button>
+          </div>
         </div>
 
-        <div>
-         <img src="../IMG/CONJUNTO-NEGRO.jpg" alt="conjuito negro" width="310px" height="410px" >
-         <p>Precio: $115.000</p>
-         <button>Agregar al carrito</button>
+        <div class="carta">
+          <img src="../IMG/CONJUNTO-NEGRO.jpg" alt="conjuito negro" />
+          <div class="carta-info">
+            <h3>Conjunto Negro</h3>
+            <p>Precio: $115.000</p>
+            <button
+              class="btn-agregar"
+              data-nombre="Conjunto Negro"
+              data-precio="115000"
+              data-img="../IMG/CONJUNTO-NEGRO.jpg"
+            >
+              Agregar al carrito
+            </button>
+          </div>
         </div>
 
-        <div>
-         <img src="../IMG/CONJUNTO-VERDE-OLI.jpg" alt="conjito ver" width="310px">
-         <p>Precio: $120.000</p>
-         <button>Agregar al carrito</button>
+        <div class="carta">
+          <img src="../IMG/CONJUNTO-VERDE-OLI.jpg" alt="conjito ver" />
+          <div class="carta-info">
+            <h3>Conjunto Verde Oliva</h3>
+            <p>Precio: $120.000</p>
+            <button
+              class="btn-agregar"
+              data-nombre="Conjunto Verde Oliva"
+              data-precio="120000"
+              data-img="../IMG/CONJUNTO-VERDE-OLI.jpg"
+            >
+              Agregar al carrito
+            </button>
+          </div>
         </div>
 
-        <div>
-         <img src="../IMG/CASUAL.jpg" alt="casualito" width="310px" height="410px">
-         <p>Precio: $120.000</p>
-         <button>Agregar al carrito</button>
+        <div class="carta">
+          <img src="../IMG/CASUAL.jpg" alt="casualito" />
+          <div class="carta-info">
+            <h3>Casual Urbano</h3>
+            <p>Precio: $120.000</p>
+            <button
+              class="btn-agregar"
+              data-nombre="Casual Urbano"
+              data-precio="120000"
+              data-img="../IMG/CASUAL.jpg"
+            >
+              Agregar al carrito
+            </button>
+          </div>
         </div>
-
+      </div>
     </section>
 
-</body>
-
+    <footer>
+      <div class="container">
+        <nav class="footer-nav">
+          <a href="index.html">Inicio</a> |
+          <a href="catalogo.html">Catálogo</a> |
+          <a href="nosotros.html">Nosotros</a> |
+          <a href="carrito.html">Mi Carrito</a>
+        </nav>
+        <p>&copy; Los pibes</p>
+      </div>
+    </footer>
+  </body>
 </html>
